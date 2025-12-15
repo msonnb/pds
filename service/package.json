@@ -7,6 +7,29 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@atproto/pds": "0.4.193"
+    "@msonnb/pds": "0.4.199"
+  },
+  "pnpm": {
+    "overrides": {
+      "@atproto-labs/fetch-node@workspace:*": "npm:@atproto-labs/fetch-node@*",
+      "@atproto-labs/simple-store@workspace:*": "npm:@atproto-labs/simple-store@*",
+      "@atproto-labs/simple-store-memory@workspace:*": "npm:@atproto-labs/simple-store-memory@*",
+      "@atproto-labs/simple-store-redis@workspace:*": "npm:@atproto-labs/simple-store-redis@*",
+      "@atproto-labs/xrpc-utils@workspace:*": "npm:@atproto-labs/xrpc-utils@*",
+      "@atproto/api@workspace:^": "npm:@atproto/api@*",
+      "@atproto/aws@workspace:^": "npm:@atproto/aws@*",
+      "@atproto/common@workspace:^": "npm:@atproto/common@*",
+      "@atproto/crypto@workspace:^": "npm:@atproto/crypto@*",
+      "@atproto/identity@workspace:^": "npm:@atproto/identity@*",
+      "@atproto/lex-cbor@workspace:^": "npm:@atproto/lex-cbor@*",
+      "@atproto/lex-data@workspace:^": "npm:@atproto/lex-data@*",
+      "@atproto/lexicon@workspace:^": "npm:@atproto/lexicon@*",
+      "@atproto/oauth-provider@workspace:^": "npm:@atproto/oauth-provider@*",
+      "@atproto/oauth-scopes@workspace:^": "npm:@atproto/oauth-scopes@*",
+      "@atproto/repo@workspace:^": "npm:@atproto/repo@*",
+      "@atproto/syntax@workspace:^": "npm:@atproto/syntax@*",
+      "@atproto/xrpc@workspace:^": "npm:@atproto/xrpc@*",
+      "@atproto/xrpc-server@workspace:^": "npm:@atproto/xrpc-server@*"
+    }
   }
 }

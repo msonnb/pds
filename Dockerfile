@@ -1,4 +1,4 @@
-FROM node:20.19-alpine3.22 as build
+FROM node:22-alpine3.22 as build
 
 RUN corepack enable
 
@@ -16,7 +16,7 @@ RUN corepack prepare --activate
 RUN pnpm install --production --frozen-lockfile > /dev/null
 
 # Uses assets from build stage to reduce build size
-FROM node:20.19-alpine3.22
+FROM node:22-alpine3.22
 
 RUN apk add --update dumb-init
 
@@ -35,6 +35,6 @@ ENV UV_USE_IO_URING=0
 
 CMD ["node", "--enable-source-maps", "index.js"]
 
-LABEL org.opencontainers.image.source=https://github.com/bluesky-social/pds
+LABEL org.opencontainers.image.source=https://github.com/msonnb/pds
 LABEL org.opencontainers.image.description="AT Protocol PDS"
 LABEL org.opencontainers.image.licenses=MIT
