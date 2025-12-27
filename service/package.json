@@ -7,7 +7,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@msonnb/pds": "0.4.207"
+    "@msonnb/pds": "0.4.208"
   },
   "pnpm": {
     "overrides": {
