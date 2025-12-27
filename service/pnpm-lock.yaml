@@ -27,8 +27,8 @@ overrides:
 
 dependencies:
   '@msonnb/pds':
-    specifier: 0.4.204
-    version: 0.4.204
+    specifier: 0.4.205
+    version: 0.4.205
 
 packages:
 
@@ -1445,8 +1445,8 @@ packages:
     resolution: {integrity: sha512-Pas4pa+XyZFD4p0QM8X81EDeAdIn4sqcdmfTHdkoY7tPKE4ESnrcSkZa01B1ZFqQY0QKC2E4Gy3nuvtodfvIjg==}
     dev: false
 
-  /@msonnb/pds@0.4.204:
-    resolution: {integrity: sha512-l5b7ONJODkeh6TX9Rp7eQi//uXJH3e0OZQ+aIMx3uuSqIOuBVOgvx8Fmf6UeFA9a3mvd30jOMN9zVUtuTZkeEw==}
+  /@msonnb/pds@0.4.205:
+    resolution: {integrity: sha512-QkWQythHfVr3SRCNMfBTv7QgMsSDrTTgExrFImoD9xxbycd4KZuZCBys1JObdtxeySqzjBxdpesVot5W8V6mQw==}
     engines: {node: '>=18.7.0'}
     dependencies:
       '@atproto-labs/fetch-node': 0.2.0
